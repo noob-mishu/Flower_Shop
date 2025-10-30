@@ -3,3 +3,27 @@
     box-sizing: border-box;
     font-family: poppins;
 }
+
+.mainPage
+{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.mainPage::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #ffd6dc;
+    z-index: -1;
+}
+
