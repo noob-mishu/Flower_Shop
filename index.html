@@ -20,7 +20,9 @@
 </head>
 <body>
     
-    <section class="mainPage">
+    
+    <!-- Home Section -->
+    <section id="mainPage">
         <!-- Header section -->
         <header class="flex items-center justify-between m-10">
             <!-- logo -->
@@ -392,23 +394,23 @@
 
     <!-- shopping-banner -->
     <section id="shopping-banner" class="max-w-[1200px] w-[90%] my-[50px] mx-auto bg-pink-200 p-[30px] border-radius-[10px]">
-  <!-- main-div -->
-  <div class="grid grid-cols-2 items-center max-w-[900px] m-auto">
+    <!-- main-div -->
+    <div class="grid grid-cols-2 items-center max-w-[900px] m-auto">
 
     <!-- text -->
-   <div class="flex flex-col max-w-[400px] gap-2">
+    <div class="flex flex-col max-w-[400px] gap-2">
     <h1 class="text-2xl text-rose-600 font-light tracking-[10px]">Collection</h1>
     <h3 class="text-4xl font-bold">Beautiful Flower Pot</h3>
     <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     <a href="#" class="text-white mt-5 max-w-[150px] bg-rose-500 flex justify-center items-center px-2 py-2 rounded-lg hover:scale-110">Order Now</a>
-  </div>
+    </div>
 
-   <!-- img -->
+    <!-- img -->
     <div class="flex justify-center h-[300px]">
       <img src="./src/images/shoes-bag.png" class="h-[100%] object-contain object-center" alt="">
     </div>
 
-  </div>
+    </div>
   
 
 
@@ -667,9 +669,23 @@
             <div class="h-1 w-20 rounded-full bg-pink-500"></div>
         </div>
 
-        <div class="min-h-screen mx-auto w-[90%] bg-black flex flex-col justify-center items-center">
+        <div class="min-h-screen mx-auto w-[90%] bg-rose-300 flex flex-col justify-center items-center">
 
-        <div class="p-5 my-3 ">
+        <div class="bg-white p-5 rounded-lg shadow-lg border-x border-rose-500 w-5/6">
+            <h1 class="text-3xl font-semibold mb-5">Registration Form</h1>
+            <form action="">
+                <input type="email" placeholder="Enter Your Email Address" class="border border-pink-500 rounded-full w-full px-2 py-3 mb-5 focus:outline-dashed focus:border-0 focus:outline-rose-500 ">
+
+                <input type="password" placeholder="Create A Password" class="border border-pink-500 rounded-full w-full px-2 py-3 mb-5 focus:outline-dashed focus:border-0 focus:outline-rose-500">
+
+                <input type="password" placeholder="Re-write Your Password" class="border border-pink-500 rounded-full w-full px-2 py-3 mb-5 focus:outline-dashed focus:border-0 focus:outline-rose-500">
+
+                <div class="m-2">
+                    <input type="checkbox" class="accent-pink-500">Are You Ready?
+                </div>
+
+                
+            </form>
 
         </div>
 
